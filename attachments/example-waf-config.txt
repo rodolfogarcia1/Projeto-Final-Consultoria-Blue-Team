@@ -1,0 +1,13 @@
+# Example ModSecurity rules for LojaZeta WAF (OWASP CRS)
+
+SecRule REQUEST_HEADERS:User-Agent "libwww-perl" \
+  "id:1000001,phase:1,t:none,log,deny,msg:'User-Agent libwww-perl detected'"
+
+SecRule ARGS "@rx (\bselect\b|\binsert\b|\bdelete\b|\bdrop\b)" \
+  "id:1000002,phase:2,log,deny,msg:'SQL Injection keyword detected'"
+
+SecRule REQUEST_URI "@rx (\.\./|\.\.\\)" \
+  "id:1000003,phase:2,log,deny,msg:'Directory traversal attempt'"
+
+SecRule REQUEST_METHOD "TRACE" \
+  "id:1000004,phase:1,log,deny,msg:'TRACE method not allowed'"

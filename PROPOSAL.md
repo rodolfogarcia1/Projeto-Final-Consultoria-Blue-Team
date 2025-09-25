@@ -1,13 +1,13 @@
 # LojaZeta – Estratégia de Defesa em Camadas, Monitoramento e Resposta a Incidentes
-**Elaborado por:** Rodolfo de Araujo Garcia
-**Data:** [2025-09-25]
-**Módulo:** Treinamento CyberSEC – Módulo 2 (Defensa & Monitoramento)
+**Elaborado por:** Rodolfo de Araujo Garcia  
+**Data:** [2025-09-25]  
+**Módulo:** Formação em CyberSEC – Módulo 2 (Defensa & Monitoramento)
 
 ---
 
 ## Capa
-**Cliente:** LojaZeta (E-commerce)
-**Consultor:** Rodolfo de Araujo Garcia
+**Cliente:** LojaZeta (E-commerce)  
+**Consultor:** Rodolfo de Araujo Garcia  
 **Escopo:** Defesa em Camadas, Plano de Monitoramento/SIEM e Estrutura de Resposta a Incidentes
 
 ---
